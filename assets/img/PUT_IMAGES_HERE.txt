@@ -1,0 +1,4 @@
+Place these files here:
+  samrattt.jpeg   profile photo (also used as favicon)
+  thumbnail.jpg   social-share preview image (1200x630 recommended)
+Place your CV at assets/cv/samrat_cv.pdf
