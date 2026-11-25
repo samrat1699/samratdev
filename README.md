@@ -7,8 +7,8 @@ Static website (HTML, CSS, JavaScript). No build step and no dependencies.
 ```
 index.html            page content
 404.html              not-found page
-assets/css/style.css  styles and the ten themes
-assets/js/main.js     theme switcher, search, filters, charts
+assets/css/app.css  styles and the ten themes
+assets/js/app.js     theme switcher, search, filters, charts
 assets/img/           photo and thumbnail (add your files)
 assets/cv/            CV PDF (add samrat_cv.pdf)
 ```
@@ -39,7 +39,7 @@ then visit http://localhost:8000
 
 ## Themes
 
-The theme button in the top bar opens a menu of ten themes (light, light yellow, sky blue, soft rose, lavender, sand, forest, slate, dark, midnight). To add a theme, add a `[data-theme=name]` block of colour variables in `style.css` and add it to the `themes` list in `main.js`.
+The theme button in the top bar changes the theme each time you click it, cycling through ten themes (light, light yellow, sky blue, soft rose, lavender, sand, forest, slate, dark, midnight). To add a theme, add a `[data-theme=name]` block of colour variables in `app.css` and add it to the `themes` list in `app.js`.
 
 ## Adding figures and screenshots
 
